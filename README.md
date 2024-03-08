@@ -4,6 +4,7 @@ Procedimento:
 - Clone o repositório localmente na sua máquina
 - Abra a pasta onde está o projeto
 - Clique em "Abrir no terminal"
+- Rode "python -m venv venv"
 - Rode a linha de código "venv\Scripts\activate" caso esteja usando no Windows
 - Rode "pip install -r requirements.txt"
 - Por fim, execute "python main.py" e a aba será aberta no seu navegador padrão
@@ -11,4 +12,3 @@ Procedimento:
 Pastas:
 - data: onde está o banco de dados
 - templates: os arquivos HTML que usuário interage
-- venv: setup do virtual environment

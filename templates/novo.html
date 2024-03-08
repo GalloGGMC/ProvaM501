@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar novo conjunto de pontos</title>
+</head>
+<body>
+    <h1>Cadastrar novo conjunto de pontos</h1>
+    <form action="/criar" method="post">
+        <label for="x">Conjunto dos X:</label>
+        <input type="text" name="x" id="x" required placeholder="x1, x2, ..."><br>
+        <label for="y">Conjunto dos Y:</label>
+        <input type="text" name="y" id="y" required placeholder="y1, y2, ..."><br>
+        <label for="z">Conjunto dos z:</label>
+        <input type="text" name="z" id="z" required placeholder="z1, z2, ..."><br>
+        <label for="r">Conjunto dos R:</label>
+        <input type="text" name="r" id="r" required placeholder="r1, r2, ..."><br>
+        <label for="r">Nome do caminho:</label>
+        <input type="text" name="nome" id="nome" required><br>
+        <button type="submit">Adicionar caminho</button>
+</body>
+</html>

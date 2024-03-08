@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar caminhos</title>
+</head>
+<body>
+    <h1>Todos os caminhos cadastrados</h1>
+    <div>
+        <h2>Caminhos</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for caminho in caminhos %}
+                <tr>
+                    <td>{{caminho["id"]}}</td>
+                    <td>{{caminho["id"]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+    </div>
+</body>
+</html>

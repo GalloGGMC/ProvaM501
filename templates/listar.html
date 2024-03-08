@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos do caminho</title>
+</head>
+<body>
+    <h1>Pontos do caminho de id {{id_caminho}}</h1>
+    <div>
+        <h2>Pontos</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>X</th>
+                    <th>Y</th>
+                    <th>Z</th>
+                    <th>R</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for ponto in pontos %}
+                <tr>
+                    <td>{{ponto[0]}}</td>
+                    <td>{{ponto[1]}}</td>
+                    <td>{{ponto[2]}}</td>
+                    <td>{{ponto[3]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+    </div>
+</body>
+</html>
